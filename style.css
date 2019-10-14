@@ -1,0 +1,167 @@
+body{
+    background-color: black;
+    margin: 30px 60px 30px 60px;
+}
+
+img{
+    width: 100%;
+    height: 600px;
+}
+
+.header__logo{
+    font-family: 'Pacifico', cursive;
+    color: black;
+    font-size: 50px;
+    line-height: 25px;
+    font-weight: 400;
+    position: absolute;
+    top: 60px;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+.header__navbar{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    top: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    line-height: 25px;
+    margin-left: 550px;
+    padding-top: 60.5px;
+    font-weight: 700;
+    width: 40%;
+}
+.header__navbar > div{
+
+    border-top: 2px solid transparent;
+}
+
+.home:hover{
+     cursor: pointer;
+     border-top: 2px solid red;
+ }
+
+.about:hover{
+    cursor: pointer;
+    border-top: 2px solid red;
+}
+.services:hover{
+    cursor: pointer;
+    border-top: 2px solid red;
+}
+.gallery:hover{
+    cursor: pointer;
+    border-top: 2px solid red;
+}
+.blog:hover{
+    cursor: pointer;
+    border-top: 2px solid red;
+}
+.contact:hover{
+    cursor: pointer;
+    border-top: 2px solid red;
+}
+
+.header__info{
+    display: contents;
+    line-height: 25px;
+    color: #262626;
+    font-family: 'Raleway', sans-serif;
+}
+
+.info{
+    font-size: 40px;
+    padding-left: 150px;
+    position: absolute;
+    top: 250px;
+    font-weight: 600;
+
+}
+
+.info__description{
+    font-size: 12px;
+    font-weight: 100;
+    line-height: initial;
+    top: 300px;
+}
+
+.header__button{
+
+    font-family: 'Raleway';
+    font-size: 16px;
+    position: absolute;
+    bottom: 250px;
+    padding-left: 150px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: #ff5f33;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: white;
+    letter-spacing: 2px;
+}
+
+.main{
+    width: 100%;
+    height: 500px;
+    background-color: #00b1b1;
+}
+.header{
+    display: flex;
+}
+
+
+
+.main__cup{
+    width: 500px;
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.main__info{
+    display: inline-flex;
+    position: absolute;
+    color: white;
+    padding-left: 80px;
+    bottom: -270px;
+    flex-direction: column;
+    line-height: 21px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.caption{
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 9px;
+}
+
+.caption_description{
+    font-size: 16px;
+}
+
+.scroll{
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    top: 550px;
+    right: 50%;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,177,177,0.9);
+}
+
+.scroll:hover{
+    cursor: pointer;
+    }
+
+.header__logo:hover{
+    cursor: pointer;
+    }
